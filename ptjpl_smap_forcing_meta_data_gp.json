@@ -1,0 +1,132 @@
+{
+    "NET_RADIATION": {
+        "file_start": "merra2_forcing_36km_",
+		"file_end": ".nc",
+		"path_9km":"EASE_9/MERRA/",
+		"path_36km":"EASE_36/MERRA/",
+		"varname":"rnet_daily_mean",
+		"date_type": "%Y%m%d",
+        "units": "$Wm^{-2}$"},
+
+    "AIR_TEMPERATURE": {
+        "file_start": "merra2_forcing_36km_",
+		"file_end": ".nc",
+		"path_9km":"EASE_9/MERRA/",
+		"path_36km":"EASE_36/MERRA/",
+		"varname":"temperature_max",
+		"date_type": "%Y%m%d",
+        "units": "$K$"},
+
+    "AIR_TEMPERATURE_MEAN": {
+        "file_start": "merra2_forcing_36km_",
+		"file_end": ".nc",
+		"path_9km":"EASE_9/MERRA/",
+		"path_36km":"EASE_36/MERRA/",
+		"varname":"temperature_mean",
+		"date_type": "%Y%m%d",
+        "units": "$K$"},
+
+    "AIR_TEMPERATURE_15_day": {
+        "file_start": "merra2_forcing_36km_",
+		"file_end": ".nc",
+		"path_9km":"EASE_9/MERRA/",
+		"path_36km":"EASE_36/MERRA/",
+		"varname":"Tmax_15_day_mean",
+		"date_type": "%Y%m%d",
+        "units": "$K$"},
+
+     "VAPOR_PRESSURE": {
+        "file_start": "merra2_forcing_36km_",
+		"file_end": ".nc",
+		"path_9km": "EASE_9/MERRA/",
+		"path_36km":"EASE_36/MERRA/",
+		"varname":"ea2m_daily_mean",
+		"date_type": "%Y%m%d",
+        "units": "$Pa$"},
+
+     "VAPOR_PRESSURE_15_days": {
+        "file_start": "merra2_forcing_36km_",
+		"file_end": ".nc",
+		"path_9km":"EASE_9/MERRA/",
+		"path_36km":"EASE_36/MERRA/",
+		"varname":"Ea_15_day_mean",
+		"date_type": "%Y%m%d",
+        "units": "$Pa$"},
+
+     "SOIL_MOISTURE_9KM": {
+        "file_start": "SMAP_L3_SM_P_E_",
+		"file_end": ".nc",
+		"path_9km":"EASE_9/SMAP/",
+		"varname":"sm_all",
+		"date_type": "%Y%m%d",
+        "units": "$VWC$"},
+
+     "SOIL_MOISTURE_36KM": {
+        "file_start": "SMAP_L3_SM_P_",
+		"file_end": ".nc",
+		"path_36km":"EASE_36/SMAP/",
+		"varname":"sm_all",
+		"date_type": "%Y%m%d",
+        "units": "$VWC$"},
+
+     "NDVI": {
+        "file_start": "MOD13C1.A",
+		"file_end_9km": "_9km_grid.nc",
+		"file_end_36km": "_36km_grid.nc",
+		"path_9km":"EASE_9/NDVI/",
+		"path_36km":"EASE_36/NDVI/",
+		"varname":"NDVI",
+		"date_type":"%Y%m%d",
+        "units": "$NDVI$"},
+
+     "T_OPT": {
+        "file_start": "T_opt_",
+		"file_end": "_grid.nc",
+		"path_9km":"EASE_9/TOPT/",
+		"path_36km":"EASE_36/TOPT/",
+		"9":"9km",
+		"36":"36km",
+		"varname":"topt",
+        "units": "$C$"},
+
+     "fAPAR_MAX": {
+        "file_start": "fAPAR_max_",
+		"file_end": "_grid.nc",
+		"path_9km":"EASE_9/fAPAR_MAX/",
+		"path_36km":"EASE_36/fAPAR_MAX/",
+		"9":"9km",
+		"36":"36km",
+		"varname":"fAPAR_max",
+        "units": "$fAPAR$"},
+
+     "WILTING_POINT": {
+        "file_start": "wilting_point_",
+		"file_end": "_grid.nc",
+		"path_9km":"EASE_9/SOIL_PROPS/",
+		"path_36km":"EASE_36/SOIL_PROPS/",
+		"9":"9km",
+		"36":"36km",
+		"varname":"wp",
+        "units": "$VWC$"},
+
+     "POROSITY": {
+        "file_start": "porosity_",
+		"file_end": "_grid.nc",
+		"path_9km":"EASE_9/SOIL_PROPS/",
+		"path_36km":"EASE_36/SOIL_PROPS/",
+		"9":"9km",
+		"36":"36km",
+		"varname":"porosity",
+        "units": "$VWC$"},
+
+     "CANOPY_HEIGHT": {
+        "file_start":"canopy_height_",
+		"file_end":"_grid.nc",
+		"9":"9km",
+		"36":"36km",
+		"path_9km":"EASE_9/CH/",
+		"path_36km":"EASE_36/CH/",
+		"varname":"CH",
+        "units":"$m$"}
+
+}
