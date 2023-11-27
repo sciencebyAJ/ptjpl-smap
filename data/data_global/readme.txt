@@ -18,7 +18,7 @@ DATA DESCRIPTION:
 
 NET RADIATION
 Script to regrid to EASE2grid: 
-	/Volumes/AJ_RESEARCH/SMAP_ET_2_global_application/scripts/merra2_to_ease2grid.py
+	scripts/merra2_to_ease2grid.py
 Folders:
 	merra_forcing/ease2_36km/
 	merra_forcing/ease2_9km/
@@ -32,7 +32,7 @@ Variable Name:
 
 AIR TEMPERATURE
 Script to regrid to EASE2grid: 
-	/Volumes/AJ_RESEARCH/SMAP_ET_2_global_application/scripts/merra2_to_ease2grid.py
+	scripts/merra2_to_ease2grid.py
 Folders:
 	merra_forcing/ease2_36km/
 	merra_forcing/ease2_9km/
@@ -46,7 +46,7 @@ Variable Name:
 
 AIR TEMPERATURE MEAN 
 Script to regrid to EASE2grid: 
-	/Volumes/AJ_RESEARCH/SMAP_ET_2_global_application/scripts/merra2_to_ease2grid.py
+	scripts/merra2_to_ease2grid.py
 Folders:
 	merra_forcing/ease2_36km/
 	merra_forcing/ease2_9km/
@@ -74,7 +74,7 @@ Variable Name:
 
 NDVI
 Script to regrid to EASE2grid: 
-	/data15/famiglietti2/ajpurdy/SMAP_ET_global/data/RAW/MOD13C1_to_EASE_grid.m
+	data/RAW/MOD13C1_to_EASE_grid.m
 Folders:
 	modis_ndvi/ease2_36km/
 	modis_ndvi/ease2_9km/
@@ -87,7 +87,7 @@ Variable Name:
 
 Canopy Height
 Script to regrid to EASE2grid: 
-	/data15/famiglietti2/ajpurdy/SMAP_ET_global/data/RAW/rescale_ch_to_ease2grid.m
+	data/RAW/rescale_ch_to_ease2grid.m
 Folders:
 	canopy_height/
 Filename:
@@ -100,7 +100,7 @@ Variable Name:
 
 fAPAR maximum value
 Script to regrid to coarsen to 36km: 
-	/Volumes/AJ_RESEARCH/SMAP_ET2_global_application/scripts/find_faparmax.m
+	scripts/find_faparmax.m
 Folders:
 	fapar_max/
 Filename:
@@ -112,7 +112,7 @@ Variable Name:
 
 Soil Properties
 Script to obtain Soil Properties data
-	/Volumes/AJ_RESEARCH/SMAP_ET_2_global_application/data_global/_fix_res_scripts_/fix_res_soil_props.m
+	data_global/_fix_res_scripts_/fix_res_soil_props.m
 Links to data description:
 	SMAP L4 Data Soil Propeties ATBD by Narandera Das
 Folders:
